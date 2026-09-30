@@ -1,0 +1,37 @@
+# GA Conversion Predictor
+
+An ML project for predicting whether a user will perform a target action during a session.
+
+# Dataset
+The project uses Google Analytics session and hit data.
+The original dataset is not included in this repository because of its size.
+Required files:
+- `ga_sessions.csv`
+- `ga_hits.csv`
+Download the dataset and place the files into this directory before running the project.
+https://drive.google.com/drive/folders/1a_CYUGYJZ-k2M3eU0ukTJ-JXtMQHB_E3?usp=share_link
+
+## Task
+Predict whether a user will perform at least one target action during a session.
+
+## Data
+- `data/ga_sessions.csv`
+- `data/ga_hits.csv`
+
+## Training
+Run the train.py script:
+python train.py
+
+## Running the API
+Activate the project environment and install the required dependencies:
+```terminal
+source actavate Final_Work
+pip install "fastapi[all]"
+cd ~/"Final Work"
+uvicorn app.main:app --reload
+```
+
+## API Endpoints
+- `GET /status` - check the API status
+- `GET /version` - get detailed model information
+- `POST /predict` - get a prediction

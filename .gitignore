@@ -1,0 +1,14 @@
+# Data
+data/*.csv
+
+catboost_info/
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
