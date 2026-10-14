@@ -10,6 +10,8 @@ The project covers the full ML workflow — from data preprocessing and feature 
 
 ## Dataset
 
+Download Dataset: https://drive.google.com/drive/folders/1a_CYUGYJZ-k2M3eU0ukTJ-JXtMQHB_E3?usp=share_link
+
 The project uses two Google Analytics datasets:
 
 * `ga_sessions.csv` — information about user sessions
